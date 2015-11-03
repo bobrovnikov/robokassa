@@ -1,0 +1,17 @@
+{
+  "name": "bobrovnikov/robokassa",
+  "type": "library",
+  "description": "Robokassa Bundle",
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "autoload": {
+    "psr-0": {
+      "Bobrovnikov\\RobokassaBundle": ""
+    }
+  },
+  "minimum-stability": "stable",
+  "support": {
+    "email": "denis.bobrovnikov@gmail.com"
+  }
+}
