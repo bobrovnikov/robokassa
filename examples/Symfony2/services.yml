@@ -1,0 +1,8 @@
+#this file should be located in /src/YourCompany/YourBundle/Resources/config
+
+services:
+    # your services
+
+    model.robokassa:
+        class: YourCompany\YourBundle\Model\PaymentGateway\RobokassaModel
+        arguments: [%robokassa.login%, %robokassa.pass1%, %robokassa.pass2%, %robokassa.is_active%]

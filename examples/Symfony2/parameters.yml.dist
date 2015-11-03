@@ -1,0 +1,9 @@
+# this file should be located in /app/config
+
+parameters:
+    # ... database, mailer, etc. ...
+
+    robokassa.login: somelogin
+    robokassa.pass1: # do not store passwords in repo!
+    robokassa.pass2: # these should be filled manually via `$ composer install`
+    robokassa.is_active: false
