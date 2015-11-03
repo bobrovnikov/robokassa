@@ -14,7 +14,8 @@ $Robokassa
 ```
 
 There are multiple ways to bring user to payment page.
-1. Form submit
+
+1). Form submit
 ```html
 <form action="<?php echo $Robokassa->getEndpointAction() ?>" method="post">
     <?php foreach ($Robokassa->getAllParams() as $name => $value): ?>
@@ -24,12 +25,13 @@ There are multiple ways to bring user to payment page.
 </form>
 ```
 
-2. Via link
+2). Via link
 ```html
 <a href="<?php echo $Robokassa->getEndpointQuery() ?>">Pay</a>
 ```
 
-3. Redirect
+
+3). Redirect
 ```php
 header('Location: ' . $Robokassa->getEndpointQuery());
 ```
